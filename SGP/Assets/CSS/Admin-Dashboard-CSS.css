@@ -1,0 +1,126 @@
+                                    /* Whole page CSS */
+* {
+    background-color: #f8f8f7;
+    font-family: gilroy;
+        max-height: 100%;
+}
+
+.row{
+    width: 100%;
+}
+
+#title {
+    margin-left: 10px;
+}
+
+#firstColumnRows-upper,
+#secondColumnRows-upper,
+#thirdColumnRows-upper {
+    height: 6rem;
+}
+
+
+                                    /*  First column 
+                                            and its Rows    */
+#firstColumnRows {
+    border-right: 1px solid #999078;
+    height: auto;
+}
+
+#firstColumnRows-upper{
+   justify-content: center;
+}
+
+#firstColumnRows-upper img{ 
+    width: 80%;
+    height: 90%;
+}
+
+
+                                    /*    Navigation bar
+                                                css         */
+#firstColumnRows-center {
+    list-style-type: none;
+    justify-content: center;
+}
+
+#firstColumnRows-center #nav-name {
+    margin-left: 27px;
+    margin-top: 7px;
+    font-size: 10pt;
+}
+
+#firstColumnRows-center label >svg{
+    height: 20px;
+    width: 20px;
+    background-color: #f8f8f7;
+    margin-bottom: 4px;
+}
+ 
+#firstColumnRows-center label{
+    margin-left: 10px;
+    padding: 12px;
+    width: 100%;
+    font-size: 14pt;
+    border-radius: 7px;
+}
+
+#firstColumnRows-center span>label>svg{
+    display: none;
+}
+
+#firstColumnRows-center span:hover>label>svg {
+    display: inline-block;
+    transition: 0.1s ease-in-out;
+    background-color: #ffca40;
+}
+
+#firstColumnRows-center span:hover>label{
+    background-color: #ffca40;
+    font-weight: 600;
+    box-shadow: 2px 2px 5px #cabfaa;
+    transform: scale(1.02);
+    transition: 0.1s ease-in-out;
+}
+
+#firstColumnRows-center input[type='radio']{
+    opacity: 0; 
+    margin: -3px; 
+} 
+
+#firstColumnRows-center input[type="radio"]:checked+span>label,
+#firstColumnRows-center input[type="radio"]:checked+span>label>svg
+{   
+    display: inline-block;
+    font-weight: 400;
+    box-shadow: none;
+    background-color: #ffca40; 
+    transition: 0.1s ease-in 2ms;
+    transform: scale(1.0);
+}
+
+
+
+                                /*  Second Column 
+                                        and its rows    */
+#secondColumnRows-upper {
+    width: auto;
+    align-content: center;
+    margin-left: 0.5rem;
+}
+
+#secondColumnRows-center{ 
+    width: 100%;
+}
+
+#secondColumnRows-center-col1,
+#secondColumnRows-center-col2
+ { 
+    margin-left: 15px;
+    margin-bottom: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(123, 122, 114, 0.35);
+    height: max-content;
+    background-color: white;
+}
+
