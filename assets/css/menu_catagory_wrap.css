@@ -32,7 +32,10 @@ body {
 }
 
 .row{
-    display:-webkit-box;display:-ms-flexbox;display:flex;width:100%}
+    display:-webkit-box;
+    display:-ms-flexbox;
+    display:flex;
+    width:100%}
     
 #firstColumnRows{
     background-color:#000;
