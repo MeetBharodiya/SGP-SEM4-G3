@@ -180,9 +180,12 @@
 
                                     /* Your Profile CSS*/
 #secondColumnRows-center{
-    display: flex;
-    /* justify-content: center;
-    align-items: center; */
+    display: grid;
+
+}
+
+@media (min-width: 600px) {
+  .card { grid-template-columns: repeat(2, 1fr); }
 }
 
 
@@ -249,20 +252,7 @@
     border: none;
     border-radius: 15px;
 }
-.h6{
-    content: attr(data-count);
-	    color: white;
-	    position: absolute;
-	    right: 16px;
-	    font-size: 15px;
-	    text-align: center;
-	    top: -12px;
-	    width: 20px;
-	    height: 20px;
-	    background: red;
-	    border-radius: 50%;
-	    opacity: 0;
-}
+
 .fa-cart-shopping{
     position: absolute;
     right: 4rem;
