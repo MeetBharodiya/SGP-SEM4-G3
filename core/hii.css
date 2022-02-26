@@ -144,6 +144,15 @@
     margin-left: 15px;
 }
 
+.back-arrow{
+    color: white;
+    margin-right: 2rem;
+}
+
+.back-arrow:hover{
+    color: #e62f35;
+}
+
 .search{
     position:absolute;
     right: 8rem;
@@ -174,18 +183,17 @@
 
                                     /* Your Profile CSS*/
 #secondColumnRows-center{
-    display: grid;
-
+    	display: grid;
+    	grid-template-columns: repeat(auto-fill,minmax(235px,1fr));
 }
 
 .card {
         margin-bottom: 3rem;
-	    display: grid;
-    	grid-template-columns: repeat(auto-fill,minmax(250px,3fr));
     	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     	border-top-left-radius: 20px;
     	border-top-right-radius: 20px;
     	background-color: #181818;
+        width: 100%;
 }
 
 .card:hover{
@@ -220,13 +228,4 @@
     -ms-transition: all 500ms ease;
     -o-transition: all 500ms ease;
     transition: all 500ms ease;
-}
-
-.back-arrow{
-    color: white;
-    margin-right: 2rem;
-}
-
-.back-arrow:hover{
-    color: #e62f35;
 }
