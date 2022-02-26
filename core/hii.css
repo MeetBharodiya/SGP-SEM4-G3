@@ -11,9 +11,7 @@
 }                         
 
 @media ( width< 600px) {
-    *{
-       background-color: #e8171f;
-    }
+    
 }
 
 * {
