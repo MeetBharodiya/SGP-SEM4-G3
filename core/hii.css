@@ -10,8 +10,15 @@
             url("//db.onlinewebfonts.com/t/1dc8ecd8056a5ea7aa7de1db42b5b639.svg#Gilroy") format("svg");
 }                         
 
-@media ( width< 600px) {
-    
+@media (max-width : 600px) {
+    *{
+        
+        color: cyan;
+    }
+
+    #firstColumnRows{
+        display: none;
+    }
 }
 
 * {
