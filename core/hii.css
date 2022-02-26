@@ -10,9 +10,9 @@
             url("//db.onlinewebfonts.com/t/1dc8ecd8056a5ea7aa7de1db42b5b639.svg#Gilroy") format("svg");
 }                         
 
-@media (max-width< 600px) {
-    .card{
-       font-size: 100pt;
+@media ( width< 600px) {
+    *{
+       background-color: #e8171f;
     }
 }
 
