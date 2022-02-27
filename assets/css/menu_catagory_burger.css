@@ -238,14 +238,6 @@ body {
     color: #e62f35;
 }
 
-.cards_3x3 {
-    display: -ms-grid;
-    display: grid;
-    -ms-grid-columns: (minmax(250px, 3fr)) [auto-fill];
-    grid-template-columns: repeat(auto-fill, minmax(250px, 3fr));
-    gap: 20px;
-}
-
 .card {
     -webkit-box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
     box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
