@@ -303,10 +303,10 @@ body {
 }
 
 .add-to-cart:hover {
+    color: #fff;
     background-color: red;
     -webkit-box-shadow: 0px 2px 5x #fff;
     box-shadow: 0px 2px 5px #fff;
-    color: #fff;
     -webkit-transform: translateY(-5px);
     transform: translateY(-5px);
 }
