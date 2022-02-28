@@ -40,6 +40,7 @@ body {
 #firstColumnRows {
     background-color: #000;
     color: #f8f8f8;
+    position:fixed;
 }
 
 #firstColumnRows-upper {
@@ -125,14 +126,16 @@ body {
     -webkit-transform: scale(1);
     transform: scale(1);
 }
+
 #firstColumnRows-below {
     background-color: #000;
 }
+
 #secondColumnRows {
     background-color: #181818;
     color: #f8f8f8;
     height: 100%;
-    position: static;
+    margin-left: auto;
 }
 #secondColumnRows-upper {
     height: 6rem;

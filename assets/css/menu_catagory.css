@@ -38,6 +38,7 @@
 #firstColumnRows {
     background-color: #000;
     color: #f8f8f8;
+    position:fixed;
 }
 
 #firstColumnRows-upper{
@@ -143,7 +144,7 @@
     background-color:#181818;
     color: #f8f8f8;
     height: 100%;
-    position: static;
+    margin-left: auto;
 }
 
 #secondColumnRows-upper{
