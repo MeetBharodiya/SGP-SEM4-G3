@@ -13,9 +13,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
         integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
         crossorigin="anonymous" referrerpolicy="no-referrer">
-    <link rel="stylesheet" href="../assets/css/menu_catagory_maggi.css">
+    <link rel="stylesheet" href="../assets/css/menu_catagory_beverages.css">
     <script src="../assets/js/menu_item.js"></script>
-    <title>Cards</title>
+    <title>Beverages</title>
 </head>
 
 <body>
@@ -23,62 +23,61 @@
     <div class="container-fluid vh-100">
         <div class="row">
 
-            <!-- I have split page in three columns parts -->
             <div id="firstColumnRows" class="col-3 vh-100">
-
                 <!-- First column -->
                 <!-- Row for logo -->
                 <div id="firstColumnRows-upper" class="row">
-                    <img src="../assets/images/Cafeccino Logo.png" alt="Cafeccino">
+                    <img src="../assets/images/EXTRA/Cafeccino Logo.png" alt="Cafeccino" />
                 </div>
 
                 <!-- Row for Verical navigation bar -->
                 <div id="firstColumnRows-center" class="row">
-
                     <!-- This is navigation bar -->
-                    <input type="radio" checked name="navigation" id="navigation-1 adminProfile">
-                    <a href="Admin-Home.html">
+                    <input type="radio" name="navigation" id="navigation-1 adminProfile" />
+                    <a href="#">
                         <span id="adminProfile">
                             <label>
-                                <img src="../assets/images/Admin Name Icon.png" alt="Add Item">
-
+                                <img src="../assets/images/EXTRA/Customer/Customer Name.png" alt="Add Item" />
+                                Customer Name
                             </label>
                         </span>
                     </a>
 
-                    <input type="radio" name="navigation" id="addItem">
-                    <a href="../Page/menu_catagory.html">
-                        <span id="addItem">
+                    <input type="radio" checked name="navigation" id="catagoty" />
+                    <a href="../core/menu_catagory.html">
+                        <span id="catagoty">
                             <label>
-                                <img src="../assets/images/Add Item Icon.png" alt="">
-                                Category
+                                <img src="../assets/images/EXTRA/Customer/Catagory.png" alt="View Chef" />
+                                Catgory
                             </label>
                         </span>
                     </a>
-                    <input type="radio" name="navigation" id="viewCustomer">
+
+                    <input type="radio" name="navigation" id="placeorder" />
                     <a href="#">
-                        <span id="viewCustomer">
+                        <span id="placeorder">
                             <label>
-                                <!-- <img src="../View Customer Icon.png" alt="View Customer"> -->
+                                <img src="../assets/images/EXTRA/Customer/Place Order.png" alt="View Order" />
                                 Place Order
                             </label>
                         </span>
                     </a>
-                    <input type="radio" name="navigation" id="viewCustomer">
+
+                    <input type="radio" name="navigation" id="history" />
                     <a href="#">
-                        <span id="viewCustomer">
+                        <span id="history">
                             <label>
-                                <!-- <img src="../View Customer Icon.png" alt="View Customer"> -->
+                                <img src="../assets/images/EXTRA/Customer/History.png" alt="View Customer" />
                                 History
                             </label>
                         </span>
                     </a>
 
-                    <input type="radio" name="navigation" id="logOut">
+                    <input type="radio" name="navigation" id="logOut" />
                     <a href="#">
                         <span id="logOut">
                             <label>
-                                <!-- <img src="../Page/Log out Icon.png " alt="Log Out"> -->
+                                <img src="../assets/images/EXTRA/Customer/Log out Icon.png" alt="Log Out" />
                                 Log Out
                             </label>
                         </span>
@@ -86,10 +85,8 @@
                 </div>
 
                 <!-- Row for Account left bottom -->
-
             </div>
             <!-- First Column End -->
-
 
             <!-- Second Column -->
             <div id="secondColumnRows" class="col-9">
@@ -98,67 +95,50 @@
                 <div id="secondColumnRows-upper" class="row">
                     <div id="secondColumnRows-upper">
                         <a href="../Page/menu_catagory.html"><i class="fa-solid fa-arrow-left back-arrow"></i></a>
-                        <li>Here Comes The path</li>
+                        <li>Beverages</li>
                         <input type="search" name="search" class="search" placeholder="Search">
                         <h5><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></h5>
                     </div>
                 </div>
 
                 <!-- Row For Your Profile -->
-                <h2 id="title">Your Profile</h2>
-                <div class="row">
-                    <div class="col-3">
+                <h2 id="title">Beverages </h2>
+                <div id="secondColumnRows-center" class="row">
+                    <div class="cards">
                         <div class="card">
-                            <img src="../assets/images/Maggi/Cheese Maggi.jpg" alt="Ham" class="card_image">
+                            <img src="../assets/images/Beverages/Hot Tea.jpeg" alt="Ham" class="card_image">
                             <div class="card_content">
-                                Cheese Maggi
-                                <br>
-                                $20.25
-                                <br>
-                                <a href="#" class="add-to-cart-btn"><button class="add-to-cart">Add to cart</button></a>
+                                Hot tea<br>
+                                $20.25<br>
+                                <a href="#" class="add-to-cart-btn">
+                                    <button class="add-to-cart">Add to cart</button>
+                                </a>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-3">
                         <div class="card">
-                            <img src="../assets/images/Maggi/Masala Maggi.jpg" alt="Ham" class="card_image">
+                            <img src="../assets/images/Beverages/Ice Tea.jpg" alt="Ham" class="card_image">
                             <div class="card_content">
-                                Masala Maggi
-                                <br>
-                                $20.25
-                                <br>
-                                <a href="#" class="add-to-cart-btn"><button class="add-to-cart">Add to cart</button></a>
+                                Ice Tea<br>
+                                $20.25<br>
+                                <a href="#" class="add-to-cart-btn">
+                                    <button class="add-to-cart">Add to cart</button>
+                                </a>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-3">
                         <div class="card">
-                            <img src="../assets/images/Maggi/Scezwan Maggi.jpg" alt="Ham" class="card_image">
+                            <img src="../assets/images/Beverages/Soft Drink.jfif" alt="Ham" class="card_image">
                             <div class="card_content">
-                                Scezwan Maggi
-                                <br>
-                                $20.25
-                                <br>
-                                <a href="#" class="add-to-cart-btn"><button class="add-to-cart">Add to cart</button></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-3">
-                        <div class="card">
-                            <img src="../assets/images/Maggi/Veg Maggi.jpg" alt="Ham" class="card_image">
-                            <div class="card_content">
-                                Veg Maggi
-                                <br>
-                                $20.25
-                                <br>
-                                <a href="#" class="add-to-cart-btn"><button class="add-to-cart">Add to cart</button></a>
+                                Soft Drink<br>
+                                $20.25<br>
+                                <a href="#" class="add-to-cart-btn">
+                                    <button class="add-to-cart">Add to cart</button>
+                                </a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
 </body>
 
 </html>
