@@ -27,16 +27,14 @@
         <!-- Row for Verical navigation bar -->
         <div id="firstColumnRows-center" class="row">
           <!-- This is navigation bar -->
-          <input type="radio" name="navigation" id="navigation-1 adminProfile" />
-          <a href="Admin-Home.html">
+          <input type="radio" name="navigation" disabled id="navigation-1 adminProfile" />
+          <a href="#">
             <span id="adminProfile">
-              <label>
-                <img src="../assets/images/EXTRA/Admin/Admin Name Icon.png" alt="Add Item" />
-              </label>
+              <label>Admin Name</label>
             </span>
           </a>
           <input type="radio" checked name="navigation" id="addItem" />
-          <a href="../Page/menu_catagory.html">
+          <a href="../core/admin_category.html">
             <span id="addItem">
               <label>
                 <img src="../assets/images/EXTRA/Admin/Add Item Icon.png" alt="" />
@@ -45,20 +43,11 @@
             </span>
           </a>
           <input type="radio" name="navigation" id="viewCustomer" />
-          <a href="#">
+          <a href="../core/admin_item.html">
             <span id="viewCustomer">
               <label>
                 <img src="../assets/images/EXTRA/Admin/Add Item Icon.png" alt="View Customer">
                 Add Item
-              </label>
-            </span>
-          </a>
-          <input type="radio" name="navigation" id="viewCustomer" />
-          <a href="#">
-            <span id="viewCustomer">
-              <label>
-                <img src="../assets/images/EXTRA/Admin/View Order Icon.png" alt="View Customer">
-                History
               </label>
             </span>
           </a>
@@ -85,7 +74,7 @@
           </div>
         </div>
         <!-- Row For Add Item -->
-        <h2 id="title">Add Item</h2>
+        <h2 id="title">Add Catagory</h2>
         <div id="secondColumnRows-center" class="row">
           <form action="#" method="get">
             <input type="number" name="Category_id" id="Category_id" placeholder="Category id" class="input-field"><br>
