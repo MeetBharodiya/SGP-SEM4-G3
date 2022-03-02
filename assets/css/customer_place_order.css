@@ -1,0 +1,241 @@
+                                    /* Whole page CSS */
+ 
+ @font-face {
+            font-family: "Gilroy";
+            src: url("//db.onlinewebfonts.com/t/1dc8ecd8056a5ea7aa7de1db42b5b639.eot");
+            src: url("//db.onlinewebfonts.com/t/1dc8ecd8056a5ea7aa7de1db42b5b639.eot?#iefix") format("embedded-opentype"), 
+            url("//db.onlinewebfonts.com/t/1dc8ecd8056a5ea7aa7de1db42b5b639.woff2") format("woff2"), 
+            url("//db.onlinewebfonts.com/t/1dc8ecd8056a5ea7aa7de1db42b5b639.woff") format("woff"), 
+            url("//db.onlinewebfonts.com/t/1dc8ecd8056a5ea7aa7de1db42b5b639.ttf") format("truetype"), 
+            url("//db.onlinewebfonts.com/t/1dc8ecd8056a5ea7aa7de1db42b5b639.svg#Gilroy") format("svg");
+}                         
+
+@media (max-width : 600px) {
+    *{
+        color: cyan;
+    }
+
+    #firstColumnRows{
+        display: none;
+    }
+}
+
+* {
+    font-family: "Gilroy";
+    max-height: 100%;
+    list-style: none;
+    background-color:#181818;
+}
+
+.row{
+    display: flex;
+    width: 100%;
+}
+
+
+                                    /*  First column 
+                                            and its Rows    */
+#firstColumnRows {
+    background-color: #000;
+    color: #f8f8f8;
+    position:fixed;
+}
+
+#firstColumnRows-upper{
+   justify-content: center;
+   background-color: #000;
+}
+
+#firstColumnRows-upper img{ 
+    margin-top: 10px;
+    height: 110%;
+    background-color: #000;
+}
+
+
+                                    /*    Navigation bar
+                                                css         */
+#firstColumnRows-center {
+    margin-top  : 10px;
+    list-style-type: none;
+    justify-content: center;
+    background-color: #000;
+}
+
+#firstColumnRows-center span{
+    background-color: #000;
+}
+
+#firstColumnRows-center a>span>label>img{
+    display: none;
+    height: 20px;
+    width: 20px;
+    margin-bottom: 4px;
+    margin-left: 25px;
+}
+
+#firstColumnRows-center label{
+    background-color: #000;
+}
+
+#firstColumnRows-center a{
+    color: #f8f8f8;
+    text-decoration: none;
+    margin-left: 25px;
+    padding: 12px 12px 12px 30px;
+    width: 94%;
+    font-size: 14pt;
+    font-weight: 500;
+    border-radius: 20px;
+    background-color: #000;
+}
+
+#firstColumnRows-center a:hover{
+    box-shadow: -2px 2px 5px #ffffff;
+    transition: 0.1s ease-in;
+    background-color: #e8171f;
+}
+
+#firstColumnRows-center a:hover>span>label>img{
+    margin-left: 0px;
+}
+
+#firstColumnRows-center a:hover>span>label>img,
+#firstColumnRows-center a:hover>span>label,
+#firstColumnRows-center a:hover
+{
+    cursor: pointer;
+    display: inline-block;
+    transition: 0.1s ease-in;
+    background-color: #e8171f;
+}
+
+#firstColumnRows-center input[type='radio']{
+    opacity: 0; 
+    background-color: #000;
+    margin: -3px; 
+} 
+
+#firstColumnRows-center input[type="radio"]:checked+a>span>label>img{
+    margin-left: 0;
+}
+
+#firstColumnRows-center input[type="radio"]:checked+a,
+#firstColumnRows-center input[type="radio"]:checked+a>span>label,
+#firstColumnRows-center input[type="radio"]:checked+a>span>label>img
+{   
+    display: inline-block;
+    font-weight: 500;
+    box-shadow: none;
+    background-color: #e8171f; 
+    transition: 0.1s ease-in 2ms;
+    transform: scale(1.0);
+}
+
+#firstColumnRows-below{
+    background-color: #000; 
+}
+
+
+
+                                /*  Second Column 
+                                        and its rows    */
+#secondColumnRows{
+    background-color:#181818;
+    color: #f8f8f8;
+    height: 100%;
+    margin-left: auto;
+}
+
+#secondColumnRows-upper{
+    height: 6rem;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 15px;
+}
+
+.back-arrow{
+    color: white;
+    margin-right: 2rem;
+}
+
+.back-arrow:hover{
+    color: #e62f35;
+}
+
+.search{
+    position:absolute;
+    right: 8rem;
+    background-color: white;
+    color: black;
+    padding-left: 10px;
+    height: 3rem;
+    width: 15rem;
+    margin-top: 1rem;
+    border: none;
+    border-radius: 15px;
+}
+
+.fa-cart-shopping{
+    position: absolute;
+    right: 4rem;
+    color: white;
+}
+
+.fa-cart-shopping:hover{
+    color: #e62f35;
+}
+
+#title {
+    margin: 20px 0px 20px 50px;
+}
+
+
+                                    /* Your Profile CSS*/
+#secondColumnRows-center{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(235px,1fr));
+    margin-left: 10px;
+    margin-top: 30px;
+}
+
+.card {
+    margin-bottom: 3rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    background-color: #181818;
+    width: 100%;
+}
+
+.card:hover{
+    transform: scale(1.1);
+    transition: all 300ms ease;
+}
+
+.card_image {
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+}
+
+.card_content {
+    margin: 1rem;
+    text-align: center;
+    color: #e62f35;
+}
+
+.food-item-a{
+    text-decoration: none;
+}
+
+.food-item-a:hover{
+    background-size: 315px 315px;
+    -webkit-transition: all 500ms ease;
+    -moz-transition: all 500ms ease;
+    -ms-transition: all 500ms ease;
+    -o-transition: all 500ms ease;
+    transition: all 500ms ease;
+}
