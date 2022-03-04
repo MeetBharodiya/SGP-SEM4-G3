@@ -13,9 +13,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
         integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
         crossorigin="anonymous" referrerpolicy="no-referrer">
-    <link rel="stylesheet" href="../assets/css/menu_catagory_beverages.css">
+    <link rel="stylesheet" href="../assets/css/customer_place_order.css">
     <script src="../assets/js/menu_item.js"></script>
-    <title>Beverages</title>
+    <title>Place Order</title>
 </head>
 
 <body>
@@ -43,7 +43,7 @@
                         </span>
                     </a>
 
-                    <input type="radio" checked name="navigation" id="catagory" />
+                    <input type="radio" name="navigation" id="catagory" />
                     <a href="../core/menu_catagory.html">
                         <span id="catagory">
                             <label>
@@ -53,8 +53,8 @@
                         </span>
                     </a>
 
-                    <input type="radio" name="navigation" id="placeorder" />
-                    <a href="../core/customer_place_order.html">
+                    <input type="radio" checked name="navigation" id="placeorder" />
+                    <a href="#">
                         <span id="placeorder">
                             <label>
                                 <img src="../assets/images/EXTRA/Customer/Place Order.png" alt="View Order" />
@@ -62,8 +62,9 @@
                             </label>
                         </span>
                     </a>
+
                     <input type="radio" name="navigation" id="logOut" />
-                    <a href="../core/customer_logout.html">
+                    <a href="#">
                         <span id="logOut">
                             <label>
                                 <img src="../assets/images/EXTRA/Customer/Log out Icon.png" alt="Log Out" />
@@ -90,47 +91,30 @@
                             <path fill-rule="evenodd"
                                 d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z" />
                         </svg>
-                        <li style="margin-left: 10px;">Beverages</li>
+                        <li style="margin-left: 10px;"> Place Order</li>
                         <input type="search" name="search" class="search" placeholder="Search">
                         <h5><a href="#"><i class="fa-solid fa-cart-shopping"></i></a></h5>
                     </div>
                 </div>
 
                 <!-- Row For Your Profile -->
-                <h2 id="title">Beverages</h2>
+                <h2 id="title">Place order</h2>
                 <div id="secondColumnRows-center" class="row">
-                    <div class="cards">
-                        <div class="card">
-                            <img src="../assets/images/Beverages/Hot Tea.jpeg" alt="Ham" class="card_image">
-                            <div class="card_content">
-                                Hot tea<br>
-                                $20.25<br>
-                                <a href="#" class="add-to-cart-btn">
-                                    <button class="add-to-cart">Add to cart</button>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img src="../assets/images/Beverages/Ice Tea.jpg" alt="Ham" class="card_image">
-                            <div class="card_content">
-                                Ice Tea<br>
-                                $20.25<br>
-                                <a href="#" class="add-to-cart-btn">
-                                    <button class="add-to-cart">Add to cart</button>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="card">
-                            <img src="../assets/images/Beverages/Soft Drink.jfif" alt="Ham" class="card_image">
-                            <div class="card_content">
-                                Soft Drink<br>
-                                $20.25<br>
-                                <a href="#" class="add-to-cart-btn">
-                                    <button class="add-to-cart">Add to cart</button>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
+                    <table id="tableForItems">
+                        <tr>
+                            <th>Name</th>
+                            <th>Catagory</th>
+                            <th>Price</th>
+                            <th></th>
+                        </tr>
+                        <tr>
+                            <td>C</td>
+                            <td>C</td>
+                            <td>C</td>
+                            <td><input type="submit" value=""></td>
+                        </tr>
+                    </table>
+
                 </div>
             </div>
         </div>

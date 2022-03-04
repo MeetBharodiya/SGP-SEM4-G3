@@ -12,7 +12,6 @@
 
 @media (max-width : 600px) {
     *{
-        
         color: cyan;
     }
 
@@ -22,7 +21,7 @@
 }
 
 * {
-    font-family: "Gilroy",;
+    font-family: "Gilroy";
     max-height: 100%;
     list-style: none;
     background-color:#181818;
@@ -39,6 +38,7 @@
 #firstColumnRows {
     background-color: #000;
     color: #f8f8f8;
+    position:fixed;
 }
 
 #firstColumnRows-upper{
@@ -141,10 +141,9 @@
                                 /*  Second Column 
                                         and its rows    */
 #secondColumnRows{
-    background-color:#181818;
     color: #f8f8f8;
     height: 100%;
-    position: static;
+    margin-left: auto;
 }
 
 #secondColumnRows-upper{
@@ -194,49 +193,33 @@
 
                                     /* Your Profile CSS*/
 #secondColumnRows-center{
-    	display: grid;
-    	grid-template-columns: repeat(auto-fill,minmax(235px,1fr));
+    margin-left: 10px;
+    margin-top: 30px;
 }
 
-.card {
-        margin-bottom: 3rem;
-    	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    	border-top-left-radius: 20px;
-    	border-top-right-radius: 20px;
-    	background-color: #181818;
-        width: 100%;
+th{
+    min-width: 150px;
 }
 
-.card:hover{
-    transform: scale(1.1);
-    transition: all 300ms ease;
+#tableForItems{
+    margin-left: 7px;
 }
 
-.card_image {
-    height: 100%;
-    width: 100%;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+tr:first-child{
+    border: 1px solid #e62f35;
 }
 
-.card_content {
-    margin: 1rem;
-    text-align: center;
-    color: #e62f35;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    
+
+th:first-child{
+    padding: 10px;
 }
 
-.food-item-a{
-    text-decoration: none;
+th:first-child,
+td:first-child{
+    padding-left: 20px;
 }
 
-.food-item-a:hover{
-    background-size: 315px 315px;
-    -webkit-transition: all 500ms ease;
-    -moz-transition: all 500ms ease;
-    -ms-transition: all 500ms ease;
-    -o-transition: all 500ms ease;
-    transition: all 500ms ease;
+#tableForButton{
+    display: grid;
+    width: 20%;
 }

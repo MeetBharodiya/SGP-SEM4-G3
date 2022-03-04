@@ -38,6 +38,7 @@
 #firstColumnRows {
     background-color: #000;
     color: #f8f8f8;
+    position:fixed;
 }
 
 #firstColumnRows-upper{
@@ -143,7 +144,7 @@
     background-color:#181818;
     color: #f8f8f8;
     height: 100%;
-    position: static;
+    margin-left: auto;
 }
 
 #secondColumnRows-upper{
@@ -193,17 +194,19 @@
 
                                     /* Your Profile CSS*/
 #secondColumnRows-center{
-    	display: grid;
-    	grid-template-columns: repeat(auto-fill,minmax(235px,1fr));
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(235px,1fr));
+    margin-left: 10px;
+    margin-top: 30px;
 }
 
 .card {
-        margin-bottom: 3rem;
-    	box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-    	border-top-left-radius: 20px;
-    	border-top-right-radius: 20px;
-    	background-color: #181818;
-        width: 100%;
+    margin-bottom: 3rem;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    background-color: #181818;
+    width: 100%;
 }
 
 .card:hover{
@@ -214,17 +217,14 @@
 .card_image {
     height: 100%;
     width: 100%;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
 }
 
 .card_content {
     margin: 1rem;
     text-align: center;
     color: #e62f35;
-    border-bottom-left-radius: 20px;
-    border-bottom-right-radius: 20px;
-    
 }
 
 .food-item-a{
