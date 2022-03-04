@@ -206,9 +206,8 @@ th{
 }
 
 tr:first-child{
-    border: 1px solid #e62f35;
+    /* border: 1px solid #e62f35; */
 }
-
 
 th:first-child{
     padding: 10px;
