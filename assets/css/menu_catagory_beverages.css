@@ -304,13 +304,27 @@ body {
     width: 9rem;
 }
 
+@keyframes bounce {
+  0%, 20%, 60%, 100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+
+  40% {
+    -webkit-transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
+
+  80% {
+    -webkit-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+}
+
 .add-to-cart:hover {
     color: #fff;
     background-color: red;
-    -webkit-box-shadow: 0px 2px 5x #fff;
-    box-shadow: 0px 2px 5px #fff;
-    -webkit-transform: translateY(-5px);
-    transform: translateY(-5px);
+    animation: bounce 1s;
 }
 
 .add-to-cart:active {
