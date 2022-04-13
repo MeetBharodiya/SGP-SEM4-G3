@@ -1,9 +1,0 @@
-from . import views
-from django.contrib import admin
-from django.urls import path,include
-
-urlpatterns = [
-    # path('', views.cust_signup, name="cust_signup"),
-   
-   
-]
